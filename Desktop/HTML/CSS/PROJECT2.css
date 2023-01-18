@@ -1,0 +1,115 @@
+*{
+    margin:0px;
+    padding:0;
+ }
+body{
+    background-image: url(https://cdn.theatlantic.com/thumbor/MGW9iXZzyNeV7Nz2WUG-nA8jozQ=/0x97:5184x3013/1952x1098/media/img/mt/2020/01/GettyImages_520377274/original.jpg);
+    background-size:cover;
+    padding:30px 0 0 20px ;
+    position: relative;
+    height: 550px;
+}
+
+.name{
+    color: azure;
+    width:25%;
+}
+.heading{
+    font-size: 55px;
+    font-weight: 700;
+}
+.bio {margin-top: 10px;
+    color: white;
+    width:37%;
+    text-indent: 2ch;
+    word-spacing: 0.75%;
+}
+.bold{font-weight: 700;
+    font-size: 30px;
+
+}
+footer{
+    border-right: 5px solid white;
+    color: aliceblue;
+   height: 70px;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+
+}
+.birth {margin-top: -15px;
+    font-size: 75px;
+    font-weight: 2500;
+ 
+}
+footer >p{margin-top: -20px;
+    padding-right: 2px;
+    font-size: 20px;
+text-align: end;
+}
+.achivements { 
+    border-right: 5px solid white;
+    position:absolute;
+    right: 30px;
+    top: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+height: 30%;
+align-items: flex-end;
+}
+.achivements fieldset {
+  
+    color:aliceblue;
+    text-align: end;
+
+}
+fieldset{
+    width:90%;
+border-right: none;
+    border-left: none;
+    border-bottom: none;
+   border-top-width:2px ;
+
+}
+legend{
+
+    font-weight: 700;
+}
+.blockquote{font-size: large;
+
+    position:absolute;
+    top:0;
+    right:0;
+   margin:10px;
+   padding: 15px;
+   padding-left: 5px;
+ background-color: transparent;
+ color: white;
+ width: 25%;
+}
+
+.blockquote_quote{
+    font-weight: bold;
+    text-align: right;
+}
+.blockquote_quote::before{
+    content: "\2014\0020";
+
+}
+.blockquote_quoted::before{
+    content: "\201c";
+    font-size: 100px;
+    display: block;
+    margin-bottom: -60px;
+    margin-top: -40px;
+}
+.blockquote_quoted::after{
+    content: "\201c";
+    font-size: 100px;
+    display: block;
+    margin-bottom: -60px;
+    margin-top: -25px;
+    text-align: right;
+}
