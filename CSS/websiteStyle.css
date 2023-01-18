@@ -1,0 +1,90 @@
+.a div{
+    background-color:  rgba(27, 26, 25, 0.539);
+    height: 100px;
+    display: inline-block;
+  
+    margin-bottom: 5px;
+   
+}
+header{
+    height: 100px;
+
+}
+.box{font-family: 'Roboto Mono', monospace;
+    background-image: url(https://images.unsplash.com/photo-1532276269954-64188308dcb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFsY2slMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    margin-top: 10px;
+    margin-left: 20%;
+
+    height: 480px;
+    width: 100%;
+    box-shadow: -16px 16px  rgba(27, 26, 25, 0.539);
+}
+body{
+    margin: 0;
+ background-image: url(https://images.unsplash.com/photo-1533035350251-aa8b8e208d95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJhbGNrJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+
+}
+.border{font-family: 'Roboto Mono', monospace;
+    margin-right: 20%;
+    margin-top: 280px;
+    margin-left: 0%;
+    background-image: url(c.png);
+    height: 500px;
+    width: 80%;
+object-position: 50%;
+
+}
+h1{background-color: rgba(178, 178, 178, 0.5);
+ font-size: 50px;
+    color: azure;
+    width :30%;
+  height: 30%;
+margin-left: 10%;
+padding-top: 120px;
+opacity: 0.8;
+margin-bottom: 0%;}
+p{background-color: rgba(117, 117, 117, 0.454);
+    margin-left: 10%;
+    color: azure;
+    width :30%;
+    padding-left: 1%;
+}
+
+h1:hover{
+    background-color: rgba(178, 178, 178, 0);
+}
+p:hover{ 
+    background-color: rgba(117, 117, 117, 0.2);
+}
+.menu-bar {
+    background: rgb(255, 255, 255);
+ width: 100%;
+    margin:0;
+    display: inline-block;
+}
+.menu-bar{
+    background-color: rgba(27, 26, 25, 0.539);
+}
+nav ul{
+    list-style: none;
+}
+nav a{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(227, 225, 225);
+    padding: 10px;
+
+}
+nav a:hover{
+    background-color: #555;
+}
+@media screen and (min-width:768px) {
+    nav ul{
+        display:flex;
+justify-content: flex-end;
+    }
+}
+nav .logo{
+    flex-grow: 7;
+}
